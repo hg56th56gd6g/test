@@ -177,14 +177,14 @@ print(*objects, sep=' ', end='\n', file=sys.stdout, flush=False)
 
 除了unicode,其他对象都相当于str(object)
 
-![screen-capture](https://github.com/hg56th56gd6g/test/ToQLX/print_objects.png)
+![screen-capture](print_objects.png)
 
 str(object)的返回值被限定为str,如果返回unicode,则使用ascii编码将其编码为字符串
 
-![screen-capture](https://github.com/hg56th56gd6g/test/ToQLX/str_unicode_ascii.png)
+![screen-capture](str_unicode_ascii.png)
 
-![screen-capture](https://github.com/hg56th56gd6g/test/ToQLX/str_unicode_gbk.png)
+![screen-capture](str_unicode_gbk.png)
 
 报错
 
-![screen-capture](https://github.com/hg56th56gd6g/test/ToQLX/str_int_123.png)
+![screen-capture](str_int_123.png)
