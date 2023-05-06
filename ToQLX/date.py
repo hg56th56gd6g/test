@@ -18,5 +18,5 @@ if not 1<=day<= MonthToDayCount[month-1]:
     print("不正确的日期")
     exit()
 #将前面月的天数累加,这个函数将参数1里所有数相加,最后再加上参数2
-count=sum(MonthToDayCount[:1:],day)
+count=sum(MonthToDayCount[:month-1:],day)
 print("{}年{}月{}日是此年的第{}天".format(year,month,day,count))
